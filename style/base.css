@@ -1,0 +1,131 @@
+header {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    
+}
+.heading {
+    background: rgb(45, 45, 90);
+    text-align: center;
+    height: 12vh;
+    color: #fffcfc;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(15, 15, 15);
+    height: 8vh
+}
+.home-nav {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #eee;
+    margin: 0 10px;
+}
+.home-nav:hover {
+    color: #f3cece;
+    transition: all 0.3 ease;
+}
+main {
+    display: flex;
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -28px;
+    
+}
+.card h1 {
+    font-size: 1.7rem;
+    justify-content: center;
+    text-align: center;
+    background: rgb(45, 45, 90);
+    color: #eee;
+    grid-column: 1/4;
+    width: 700px;
+    border-radius: 2rem;
+}
+.card3 h1 {
+    font-size: 1.7rem;
+    justify-content: center;
+    text-align: center;
+    background: rgb(45, 45, 90);
+    color: #eee;
+    grid-column: 1/4;
+    width: 300px;
+    border-radius: 2rem;
+    margin-top: -0px;
+}
+
+
+.card p {
+    grid-column: 1/3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin-left: 40px;
+}
+.card2 p {
+    grid-column: 2/4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin-left: 40px;
+}
+.card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 120px;
+}
+.card img {
+    grid-column: 3/4;
+    max-width: 112px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.card2 h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #000;
+    grid-column: 1/4;
+    margin-left: 70px;
+    border-bottom: 1px solid black;
+    max-width: 300px;
+}
+.card2 img {
+    grid-column: 1/2;
+    max-width: 112px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.content {
+    max-width: 700px;
+    border: 1px solid black;
+    margin-left: 40px;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+footer {
+    display: grid;
+    background: rgb(45, 45, 90);
+    color: #eee;
+    justify-content: center;
+    height: 8vh;
+    text-align: center;
+    font-size: large;
+    margin-top: 16px;
+
+}
+.source {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+#one, #two, #three, #four {
+    margin-top: 20px;
+    margin-right: 100px;
+
+}
+#one:hover, #two:hover, #three:hover, #four:hover {
+    color: rgb(159, 159, 199);
+    transition: all 0.3 ease;
+}
