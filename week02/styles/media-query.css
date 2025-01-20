@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    box-sizing: border-box;
+}
+header {
+    background: lightblue;
+    max-width: 640px;
+    padding: 1rem;
+}
+main {
+    display: grid;
+    margin-top: 1rem;
+    max-width: 640px;
+}
+section {
+    border: 5px solid lightblue;
+    padding: 1rem;
+}
+footer {
+    background: lightblue;
+    margin-top: 1rem;
+    max-width: 640px;
+    padding: 1rem;
+}
