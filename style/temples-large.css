@@ -1,0 +1,57 @@
+@media screen and (max-width: 500px) {
+    #menu {
+        display: grid;
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        position: absolute;
+        top: 4%;
+        left: 65%;
+    }
+    #menu::before {
+        content: "☰";
+        margin-left: 100%;
+        font-size: 25px;
+        color: aliceblue;
+    }
+    #menu.open::before {
+        content: "x";
+        display: contents;
+        font-size: 25px;
+        color: aliceblue;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .toolbar a {
+        display: none;
+        padding: 10px 30px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        border: 2px solid white;
+        left: 50px; 
+        text-align: center;
+        color: #fff;
+        background: #070000;
+
+    }
+    .open a {
+        display: block;
+    }
+    .templeimage {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    body {
+        display: block;
+        height: auto;
+    }
+    footer {
+        height: auto;
+    }
+}

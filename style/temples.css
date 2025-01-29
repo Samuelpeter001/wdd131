@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+}
+.top {
+    color: aliceblue;
+    margin-left: 17px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.toolbar{
+    display: block;
+    justify-content: space-around;
+    margin: 0 25px;
+    font-size: large;
+}
+.words:hover {
+    color: rgb(17, 228, 228);
+    transition: all 0.3s ease;
+}
+.words{
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: auto;
+}
+main h1 {
+    text-align: center;
+}
+.templeimage {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px 20px;
+}
+figure img {
+    max-width: 150px;
+    height: 130px;
+}
+footer {
+    background: purple;
+    height: 70px;
+    text-align: center;
+}
+p {
+    color: aliceblue;
+    font-size: large;
+
+}
