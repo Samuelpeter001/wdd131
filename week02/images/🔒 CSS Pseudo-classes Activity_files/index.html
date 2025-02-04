@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)https://cdpn.io/cpe/boomboom/index.html?key=index.html-b8b0bfb7-eda0-f2b0-5668-033bbf48bc2d -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/BYU-Idaho/pen/JjgqVWa">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  
+
+  
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6d8bf8b4b479137260842506acbb12717dace0823c023e08b96360e60b0840d9.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+<style id="INLINE_PEN_STYLESHEET_ID">:root {
+	--color: navy;
+	--hoverColor: purle;
+	--border: 1px solid black;
+}
+a:link, a:visited {
+	color: var(--color)
+}
+a:hover{
+	color: var(--hoverColor)
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	margin: 0.75rem;
+}
+
+main {
+	margin: 0.5rem;
+	border: 1px solid rgb(0 0 0 / 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+p {
+	margin: 1rem;
+}
+
+.datatable {
+	width: 200px;
+	margin-top: 2rem;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 100px 100px;
+	align-items: center;
+	text-align: center;
+}
+
+.col {
+	padding: 0.5rem;
+	border-top: var(--border);
+	border-left: var(--border);
+}
+.col:nth-child(even) {
+	border-right: var(--border);
+	
+}
+.row:last-child {
+	border-bottom: var(--border);
+	background-color: #bbb;
+}
+</style></head>
+
+<body>
+  <h1>CSS Pseudo Class Activity</h1>
+<main>
+	<p>Anchor Tag: <a href="https://churchofjesuschrist.org/" target="_blank">The Church of Jesus Christ of Latter-day Saints</a></p>
+
+	<div class="datatable">
+		<div class="row">
+			<div class="col">1-1</div>
+			<div class="col">1-2</div>
+		</div>
+		<div class="row">
+			<div class="col">2-1</div>
+			<div class="col">2-2</div>
+		</div>
+		<div class="row">
+			<div class="col">3-1</div>
+			<div class="col">3-2</div>
+		</div>
+	</div>
+	<p>The borders on this "table"'s cells (.col) should not double up on each other.</p>
+</main>
+  
+  
+
+
+</body></html>
