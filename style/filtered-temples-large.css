@@ -54,4 +54,17 @@
     footer {
         height: auto;
     }
+    #temple-frame {
+        display: grid;
+        grid-template-columns: 1fr ;
+        background: black;
+        padding: auto auto;
+        
+    }
+    .temple-design {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
 }

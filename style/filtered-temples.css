@@ -56,5 +56,18 @@ footer {
 p {
     color: aliceblue;
     font-size: large;
-
+}
+#temple-frame {
+    background: black;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.temple-design {
+    display: block;
+    background-color: black;
+    padding: 1px 3px;
+    border: 2px solid white;
 }
