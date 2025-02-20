@@ -38,5 +38,19 @@ products.forEach(product => {
     option.textContent = product.name;
     productSelect.appendChild(option);
 });
-// document.addEventListener('DOMContentLoaded', ProductSelect);
+function incrementReviewCount() {
+    let reviewCount = localStorage.getItem('reviewCount') || 0;
+    reviewCount = parseInt(reviewCount) + 1;
+    localStorage.setItem('reviewCount, reviewCount');
+}
+document.addEventListener('DOMContentLoaded', incrementReviewCount);
+
+function dislayReview() {
+    const reviewCountDisplay = document.getElementById('reviewCount');
+    const reviewCount = localStorage.getItem('reviewCount') || 0;
+    reviewCountDisplay.textContent = `Number of review completed ${reviewCount}`;
+}
+
+
+document.addEventListener('DOMContentLoaded', displayReview);
 
